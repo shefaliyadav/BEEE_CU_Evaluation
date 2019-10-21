@@ -28,17 +28,17 @@ digitalWrite(ledPin, HIGH);
 Serial.print("Its DARK, Turn on the LED : ");
 
 Serial.println(ldrStatus);
-  delay(1000);
+  delay(2000);
 
 } 
   else 
   {
-digitalWrite(ledPin, LOW);
+digitalWrite(ledPin, HIGH);
 
 Serial.print("Its BRIGHT, Turn off the LED : ");
 
 Serial.println(ldrStatus);
-    delay(2000);
+    delay(1000);
 
 }
   }
